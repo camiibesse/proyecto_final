@@ -189,8 +189,8 @@
                 padding: 256px 0 24px;
                 .info-card{
                     h3{
-                        color: #000;
-                        font-size: .8rem;
+                        color: $secondary-color;
+                        font-size: .6rem;
                         margin-left: 5px;
                     }
                 }
@@ -236,8 +236,9 @@
             font-size: 2rem;
         }
         .btn-accesorios{
-            margin-left: 20px;
+            
             color: #fff;
+            width: 50%;
         }
 
     }

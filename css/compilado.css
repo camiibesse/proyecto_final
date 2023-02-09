@@ -251,7 +251,7 @@ main .section5 {
   from {
     transform: scale(1.05); } }
   .menu .btn-accesorios {
-    width: 100%;
+    width: 90%;
     cursor: pointer;
     background-color: #ff7e44;
     border: 0;
@@ -401,8 +401,8 @@ main .columnas {
     width: 25%;
     padding: 256px 0 24px; }
     main .section3 .card-vertical .info-card h3 {
-      color: #000;
-      font-size: .8rem;
+      color: #034b5a;
+      font-size: .6rem;
       margin-left: 5px; }
   main h2 {
     font-size: 2rem; }
@@ -430,8 +430,8 @@ main .columnas {
   .menu .titulo-accesorios {
     font-size: 2rem; }
   .menu .btn-accesorios {
-    margin-left: 20px;
-    color: #fff; }
+    color: #fff;
+    width: 50%; }
   .hero .hero__titulo {
     font-size: 2rem;
     display: flex; } }
