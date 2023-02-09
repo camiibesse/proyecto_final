@@ -1,0 +1,42 @@
+@import "variables";
+
+main{
+    .titulo-comentarios{
+        padding: 1rem;
+        font-size: 3rem;
+        display: grid;
+        place-items: center;
+        color: $primary-color;
+    }
+    .columnas{
+        display: flex;
+        gap: 5px;
+        margin: 15px;
+        & > *{
+            width: 100%;
+            border: 1px solid #000;
+            background-color: rgb(137, 231, 235);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);            
+            h4{
+                color: $secondary-color;
+                padding: 5px;
+                text-align: center;
+                font-weight: 700;
+            }
+            .fa-star{
+                color: goldenrod;    
+                font-size: 1.2rem;                  
+            }
+            p{
+                padding: 15px;
+                text-align: justify;
+            }
+        }
+       
+            
+        
+        
+    }
+    
+    
+}

@@ -1,0 +1,59 @@
+@import "variables";
+
+
+main{
+    h2{
+        color: $primary-color;
+        text-align: center;
+    }
+    .section3{
+        width: 100%;
+        position: relative;
+        background-image: url("../images/section3.jpg");
+        background-size: cover;
+        .fila{
+            display: flex;            
+        }
+        .card-vertical{
+            width: 25%;
+            padding: 800px 40px 40px;
+            border-right: 1px solid #fff;
+            background-color: transparent;
+            transition: .4s;
+            position: relative;
+            &:hover{
+                background-color: #acacac40;
+                backdrop-filter: blur(10px);
+            }
+            &:hover .info-card{
+                bottom: 130px;
+            }
+            &:hover p{
+                color: #000;
+            }
+            .info-card{
+                position: absolute;
+                bottom: 30px;
+                transition: .4s;
+            }
+            h3{
+                color: $primary-color;
+                font-size: 34px;
+                margin-bottom: 14px;
+            }
+            p{
+                transition: .4s;
+                color: transparent;
+                margin-bottom: 14px;
+                font-size: 20px;
+            }
+            button{
+                background-color: #ffffff40;
+                color: #fff;
+                border: 0 transparent;
+                padding: 14px 20px;
+                font-size: 14px;
+            }
+        }
+    }
+}
