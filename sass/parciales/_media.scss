@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1024px) {
     .nav__container{
         .nav__label{
             display: block;
@@ -43,6 +43,26 @@
                 margin-bottom: 15px;
             }
         }
+        .section3{
+            .card-vertical{
+                .info-card{
+                    h3{
+                        font-size: 1.625rem;
+                    }                    
+                }                
+                button{
+                    display: none;
+                }
+            }
+        }
+    }
+    .menu{
+        .btn-accesorios{
+            width: 20%;
+            margin-left: 408px;
+            margin-bottom: 50px;
+        }
+            
     }
      
 }
