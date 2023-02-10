@@ -24,7 +24,8 @@ body {
     .nav__container .nav__menu {
       display: grid;
       grid-auto-flow: column;
-      gap: 3em; }
+      gap: 3em;
+      z-index: 9; }
       .nav__container .nav__menu .nav__item {
         color: #fff;
         text-decoration: none; }
@@ -303,7 +304,8 @@ main .columnas {
     flex-direction: column;
     align-items: center;
     clip-path: circle(0 at center);
-    transition: clip-path 1s ease-in-out; }
+    transition: clip-path 1s ease-in-out;
+    z-index: 9; }
   .nav__input:checked + .nav__menu {
     clip-path: circle(100% at center); }
   .hero {
@@ -329,6 +331,8 @@ main .columnas {
     margin-bottom: 50px; } }
 
 @media (max-width: 768px) {
+  .nav__menu {
+    z-index: 9; }
   main .section3 .card-vertical {
     display: block;
     width: 25%;
@@ -377,6 +381,8 @@ main .columnas {
     padding: 3px 32px; } }
 
 @media (max-width: 425px) {
+  .nav__menu {
+    z-index: 9; }
   main .section5 .div__container {
     display: block;
     max-width: 425px;
