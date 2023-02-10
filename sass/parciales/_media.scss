@@ -17,7 +17,7 @@
             align-items: center;
             clip-path: circle(0 at center);
             transition: clip-path 1s ease-in-out;
-            z-index: 9;
+            z-index: 9999999;
         }
     }   
     
@@ -71,7 +71,7 @@
 
 @media (max-width: 768px){
     .nav__menu{
-        z-index: 9;
+        z-index: 999999;
     }
     main .section3{
         .card-vertical{
@@ -156,7 +156,7 @@
 
 @media (max-width: 425px){
     .nav__menu{
-        z-index: 9;
+        z-index: 9999999;
     }
     main{
         .section5{
